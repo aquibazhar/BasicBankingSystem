@@ -1,0 +1,36 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h2{
+	font-size: 40px;
+}
+table{
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+	background: #c7cee9;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
+body
+{
+	background-color: #bfc9ee;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ffffff;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #ffffff;
+}
